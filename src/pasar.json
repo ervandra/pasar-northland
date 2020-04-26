@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Lumpia maknyoss",
+    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
+    "image": "https://i.imgur.com/gR3nIUM.jpg",
+    "rate": 5,
+    "favourite": false,
+    "contact": "6287708770800"
+  },
+  {
+    "title": "Nasi Lemak Medan maknyoss",
+    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
+    "image": "https://i.imgur.com/gR3nIUM.jpg",
+    "rate": 4,
+    "favourite": false,
+    "contact": "6287708770800"
+  },
+  {
+    "title": "Siomay Ayam maknyoss",
+    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
+    "image": "https://i.imgur.com/gR3nIUM.jpg",
+    "rate": 3,
+    "favourite": false,
+    "contact": "6287708770800"
+  },
+  {
+    "title": "Lumpia maknyoss",
+    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
+    "image": "https://i.imgur.com/gR3nIUM.jpg",
+    "rate": 4,
+    "favourite": false,
+    "contact": "6287708770800"
+  }
+]

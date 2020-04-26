@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('fonts/poppins.eot');
+    src: url('fonts/poppins.eot') format('embedded-opentype'),
+         url('fonts/poppins.woff2') format('woff2'),
+         url('fonts/poppins.woff') format('woff'),
+         url('fonts/poppins.ttf') format('truetype'),
+         url('fonts/poppins.svg#poppins') format('svg');
+}
