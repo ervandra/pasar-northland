@@ -3,6 +3,7 @@ import './App.css';
 import './northland.scss';
 import Item from './components/Item';
 import Axios from 'axios';
+import { isMobile } from 'react-device-detect';
 
 function App() {
 
@@ -37,11 +38,17 @@ function App() {
   //   description: 'Nasi, telor, bihun, kerupuk, timun, sambal mantap!',
   //   image: nasiLemak
   // }
+  const orderText = 'Halo%20mau%20nambah%20produk%20nih%20gan';
+  const url = isMobile ? `whatsapp://send?phone=6287708770800&text=${orderText}` : `https://wa.me/6287708770800?text=${orderText}`;
+
   return (
     <div className="container">
+      <div className="notice">
+        <p>Situs ini sedang dalam tahap pengembangan dan akan terus diupdate agar lebih bermanfaat. Hubungi <a href={url}>saya</a> jika ada keluhan, saran, atau ingin menambahkan produk anda 😉</p>
+      </div>
       <header id="header">
-        <h1><span>★</span> Pasar Northland <span>★</span></h1>
-        <p>Kumpulan jajanan dan masakan apartemen Northland Ancol Residence.</p>
+        <h1><span>★</span> Pasar Jajanan Northland <span>★</span></h1>
+        <p>Kumpulan jajanan & masakan homemade di apartemen Northland Ancol Residence.</p>
       </header>
       <section id="content">
         {data.length === 0 || isLoading || isError ? (
@@ -56,6 +63,7 @@ function App() {
 
       </section>
       <footer id="footer">
+        <div className="disclaimer">DISCLAIMER: Hanya untuk kalangan sendiri.</div>
         <div className="copyright"><small>v1.0</small> | Dibuat oleh <a href="https://www.ervandra.com" target="_blank" rel="noreferrer noopener">ervandra.com</a></div>
       </footer>
     </div>

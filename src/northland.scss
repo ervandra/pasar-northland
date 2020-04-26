@@ -166,6 +166,12 @@ img  {
   background:#F9FAFC;
   padding: 1rem 0;
   border-top: 1px solid #EFF2F7;
+  .disclaimer {
+    font-size: 11px;
+    margin-bottom: .5rem;
+    color: #8492A6;
+    text-align: center;
+  }
   .copyright {
     text-align: center;
     font-size: 12px;
@@ -173,5 +179,16 @@ img  {
     a {
       color: #3C4858;
     }
+  }
+}
+
+.notice {
+  font-size: 10px;
+  text-align: center;
+  font-style: italic;
+  padding: 0 1rem;
+  a {
+    color: #FF7849;
+    font-weight: bold;
   }
 }

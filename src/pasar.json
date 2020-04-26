@@ -1,34 +1,123 @@
 [
   {
-    "title": "Lumpia maknyoss",
-    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
-    "image": "https://i.imgur.com/gR3nIUM.jpg",
+    "title": "Lumpia Endess (belum goreng)",
+    "description": "Halal & Fresh, isi bengkoang, tahu, ayam, dan wortel. dipadukan dengan sambal kacang pedas yang khas. Dijamin ketagihan (belum di goreng)",
+    "image": "https://api.ervandra.com/images/lumpia.jpg",
+    "nama": "Sri Ayu",
+    "ready": false,
+    "harga": 6500,
+    "rate": 5,
+    "favourite": true,
+    "contact": "6281281587383"
+  },
+  {
+    "title": "Siomay Ayam Halal",
+    "description": "Fresh, terbuat dari daging paha ayam berkualitas, dipadukan dengan udang cincang segar. Nikmati dengan sambal khas yang menggoyang lidah!",
+    "image": "https://api.ervandra.com/images/siomay.jpg",
+    "nama": "Sri Ayu",
+    "ready": false,
+    "harga": 8000,
     "rate": 5,
     "favourite": false,
-    "contact": "6287708770800"
+    "contact": "6281281587383"
   },
   {
-    "title": "Nasi Lemak Medan maknyoss",
-    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
-    "image": "https://i.imgur.com/gR3nIUM.jpg",
-    "rate": 4,
+    "title": "Choi Pan Vegan Halal",
+    "description": "Choi pan fresh, 100% halal dan terbuat dari sayuran, sangat sempurna untuk vegetarian. Segera order sebelum habis.",
+    "image": "https://api.ervandra.com/images/choipan-vegan.jpg",
+    "nama": "Lip Kho",
+    "ready": false,
+    "harga": 0,
+    "rate": 5,
     "favourite": false,
-    "contact": "6287708770800"
+    "contact": "6285283875938"
   },
   {
-    "title": "Siomay Ayam maknyoss",
-    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
-    "image": "https://i.imgur.com/gR3nIUM.jpg",
-    "rate": 3,
+    "title": "Nasi Lemak ⭐",
+    "description": "Isi: nasi harum, kering tempe, tumis buncis, telor balado, sambal maknyus, bihun goreng, dan timun dan kerupuk renyah!",
+    "image": "https://api.ervandra.com/images/nasi-lemak.jpg",
+    "nama": "Ndre",
+    "ready": true,
+    "harga": 15000,
+    "rate": 5,
     "favourite": false,
-    "contact": "6287708770800"
+    "contact": "6282122566200"
   },
   {
-    "title": "Lumpia maknyoss",
-    "description": "Isi: wortel, kentang, bihun, talas, ebi. disajikan dengan sambal pedas khas",
-    "image": "https://i.imgur.com/gR3nIUM.jpg",
-    "rate": 4,
+    "title": "Kari Bihun Ayam",
+    "description": "Isi: ayam, bihun, kentang dalam kuah kari yang kental dan mantap",
+    "image": "https://api.ervandra.com/images/kari-bihun-ayam.jpg",
+    "nama": "Ndre",
+    "ready": true,
+    "harga": 15000,
+    "rate": 5,
     "favourite": false,
-    "contact": "6287708770800"
+    "contact": "6282122566200"
+  },
+  {
+    "title": "Kari Bihun Ayam Komplit",
+    "description": "Isi: ayam + telor, bihun, kentang dalam kuah kari yang kental dan mantap",
+    "image": "https://api.ervandra.com/images/kari-bihun-ayam-komplit.jpg",
+    "nama": "Ndre",
+    "ready": true,
+    "harga": 20000,
+    "rate": 5,
+    "favourite": false,
+    "contact": "6282122566200"
+  },
+  {
+    "title": "Kolak Segar",
+    "description": "Isi: pisang, ubi, kolang kaling. atau pisang, ubi, pacar cina.",
+    "image": "https://api.ervandra.com/images/kolak-segar.jpg",
+    "nama": "Ndre",
+    "ready": true,
+    "harga": 10000,
+    "rate": 5,
+    "favourite": false,
+    "contact": "6282122566200"
+  },
+  {
+    "title": "Aneka Nasi Bakar",
+    "description": "Nasi bakar isi: Bandeng Presto Smg | Ayam Bakar | Ayam Suir | Cumi Asin | Peda",
+    "image": "https://api.ervandra.com/images/nasi-bakar.jpg",
+    "nama": "Vandes",
+    "ready": false,
+    "harga": 30000,
+    "rate": 5,
+    "favourite": false,
+    "contact": "6281380093580"
+  },
+  {
+    "title": "Es Timun Suri",
+    "description": "Isi: Timun suri segar dengan gula asli yang pas dan tanpa pengawet! Segar, higienis dan sehat.",
+    "image": "https://api.ervandra.com/images/timun-suri.jpg",
+    "nama": "AS",
+    "ready": true,
+    "harga": 10000,
+    "rate": 5,
+    "favourite": false,
+    "contact": "6281288887219"
+  },
+  {
+    "title": "Asinan Asem Pedes Manis",
+    "description": "Asinan berbagai buah, rasanya asin, asem, manis dan pedas! wah!",
+    "image": "https://api.ervandra.com/images/asinan-asam-manis.jpg",
+    "nama": "Lili",
+    "ready": true,
+    "harga": 10000,
+    "rate": 5,
+    "favourite": false,
+    "contact": "628129096464"
+  },
+  {
+    "title": "INNA mie",
+    "description": "Mie ayam homemade, cukup 12rb saja sudah kenyang!",
+    "image": "https://api.ervandra.com/images/inna-mie.jpg",
+    "nama": "Pendi",
+    "ready": true,
+    "harga": 12000,
+    "rate": 5,
+    "favourite": false,
+    "contact": "6282122910807"
   }
 ]
